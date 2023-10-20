@@ -1,0 +1,1678 @@
+.fixWidth {
+ width: 100%;
+}
+.wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.wrapper .header {
+  display: flex;
+  /* width: 1440px; */
+  height: 90px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 64px;
+  position: relative;
+  background-color: #ffffff;
+  box-shadow: var(--header-shadow);
+}
+
+.wrapper .healthonomy-logo {
+  position: relative;
+  width: 215px;
+  height: 26.49px;
+  margin-top: -0.24px;
+  margin-bottom: -0.24px;
+}
+
+.wrapper .nav-items {
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 25px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-top: -1.5px;
+  margin-bottom: -1.5px;
+}
+
+.wrapper .div {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+  padding: 0px 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.wrapper .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -4px;
+  font-family: "Avenir Next LT Pro-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--primaryblue);
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 39.3px;
+  white-space: nowrap;
+}
+
+.wrapper .frame {
+  position: relative;
+  width: 20px;
+  height: 3px;
+  background-color: #003356;
+  border-radius: 16px;
+}
+
+.wrapper .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -4px;
+  font-family: "Metropolis-SemiBold", Helvetica;
+  font-weight: 600;
+  color: var(--primaryblue);
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 39.3px;
+  white-space: nowrap;
+}
+
+.wrapper .frame-2 {
+  position: relative;
+  width: 20px;
+  height: 3px;
+  background-color: #ffffff;
+  border-radius: 16px;
+}
+
+.wrapper .hero-section {
+  display: flex;
+  flex-direction: column;
+  /* width: 1440px; */
+  height: 666px;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+
+.wrapper .container {
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  width: 100%;
+  flex-grow: 1;
+  overflow: hidden;
+  background-blend-mode: exclusion;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 51, 86, 0.04) 0%,
+    rgba(247, 147, 30, 0.04) 49.97%,
+    rgba(0, 51, 86, 0.04) 100%
+  );
+}
+
+.wrapper .overlap {
+  position: relative;
+  width: 1440px;
+  height: 934px;
+}
+
+.wrapper .img {
+  position: absolute;
+  width: 1440px;
+  height: 566px;
+  top: 100px;
+  left: 0;
+}
+
+.wrapper .vector {
+  position: absolute;
+  width: 1440px;
+  height: 666px;
+  top: 0;
+  left: 0;
+}
+
+.wrapper .wrapper-wrapper {
+  position: absolute;
+  width: 1249px;
+  height: 934px;
+  top: 0;
+  left: 96px;
+}
+
+.wrapper .div-2 {
+  display: flex;
+  width: 1224px;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 32px;
+  padding: 0px 0px 32px;
+  position: relative;
+  top: 64px;
+  left: 13px;
+  backdrop-filter: blur(30px) brightness(100%);
+  -webkit-backdrop-filter: blur(30px) brightness(100%);
+}
+
+.wrapper .div-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.wrapper .div-4 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-right: -22px;
+}
+
+.wrapper .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Metropolis-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--primaryorange);
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 26.8px;
+  white-space: nowrap;
+}
+
+.wrapper .bringing-the-power {
+  position: relative;
+  width: 613px;
+  font-family: "Metropolis-Bold", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.wrapper .span {
+  color: #001828;
+}
+
+.wrapper .text-wrapper-4 {
+  color: #f7931e;
+}
+
+.wrapper .p {
+  position: relative;
+  width: 574px;
+  font-family: "Avenir Next LT Pro-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--textmedium);
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 29.6px;
+}
+
+.wrapper .button {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 24px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 32px;
+  background: linear-gradient(180deg, rgb(0, 160, 94) 0%, rgb(10, 207, 131) 100%);
+  all: unset;
+  box-sizing: border-box;
+}
+
+.wrapper .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Metropolis-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--color-collection-for-health-website-color-2);
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 35px;
+  white-space: nowrap;
+}
+
+.wrapper .image {
+  position: relative;
+  width: 601px;
+  height: 503px;
+}
+
+.wrapper .overlap-group {
+  position: relative;
+  height: 503px;
+}
+
+.wrapper .group {
+  position: absolute;
+  width: 557px;
+  height: 406px;
+  top: 97px;
+  left: 0;
+}
+
+.wrapper .overlap-group-2 {
+  position: relative;
+  height: 406px;
+}
+
+.wrapper .vector-2 {
+  position: absolute;
+  width: 394px;
+  height: 406px;
+  top: 0;
+  left: 163px;
+  border-radius: 242px 16px 0px 8px;
+  background: linear-gradient(180deg, rgb(0, 51, 86) 0%, rgba(5.1, 153.3, 255, 0.76) 85.17%);
+}
+
+.wrapper .div-5 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 10px;
+  position: absolute;
+  top: 103px;
+  left: 0;
+}
+
+.wrapper .card {
+  background-color: #ffffff;
+  box-shadow: -1px 7px 14px -3px #0000000f;
+  backdrop-filter: blur(4px) brightness(100%);
+  -webkit-backdrop-filter: blur(4px) brightness(100%);
+  display: flex;
+  width: 381px;
+  height: 76.05px;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.wrapper .mask-wrapper {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 5px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+
+.wrapper .mask {
+  position: relative;
+  width: 17px;
+  height: 17px;
+}
+
+.wrapper .optimizing-accuracy {
+  position: relative;
+  width: fit-content;
+  font-family: "Avenir Next LT Pro-Bold", Helvetica;
+  font-weight: 400;
+  color: var(--textdark);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28.8px;
+}
+
+.wrapper .text-wrapper-6 {
+  font-weight: 700;
+  color: #001828;
+}
+
+.wrapper .text-wrapper-7 {
+  font-family: "Avenir Next LT Pro-Regular", Helvetica;
+  color: #001828;
+  font-size: 14px;
+  line-height: 22.4px;
+}
+
+.wrapper .card-2 {
+  background-color: #ffffff8a;
+  border: 1px solid;
+  border-color: var(--heading);
+  backdrop-filter: blur(19px) brightness(100%);
+  -webkit-backdrop-filter: blur(19px) brightness(100%);
+  display: flex;
+  width: 381px;
+  height: 76.05px;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.wrapper .div-6 {
+  position: relative;
+  width: fit-content;
+  font-family: "Avenir Next LT Pro-Bold", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28.8px;
+}
+
+.wrapper .text-wrapper-8 {
+  font-family: "Avenir Next LT Pro-Regular", Helvetica;
+  color: #000000;
+}
+
+.wrapper .text-wrapper-9 {
+  font-family: "Avenir Next LT Pro-Regular", Helvetica;
+  color: #000000;
+  font-size: 14px;
+  line-height: 22.4px;
+}
+
+.wrapper .wepik-export {
+  position: absolute;
+  width: 338px;
+  height: 503px;
+  top: 0;
+  left: 263px;
+}
+
+.wrapper .the-speed-you-need {
+  position: relative;
+  width: 1440px;
+  height: 596px;
+  /* background-image: url(./img/vector-1-1.svg); */
+  background-size: 100% 100%;
+}
+
+.wrapper .div-7 {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  align-items: center;
+  gap: 136px;
+  position: relative;
+  top: 97px;
+  backdrop-filter: blur(30px) brightness(100%);
+  -webkit-backdrop-filter: blur(30px) brightness(100%);
+}
+
+.wrapper .title {
+  display: flex;
+  gap: 10px;
+  padding: 0px 64px;
+  align-self: stretch;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.wrapper .the-speed-you-need-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Metropolis-Medium", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.wrapper .text-wrapper-10 {
+  font-weight: 500;
+  color: #001828;
+}
+
+.wrapper .text-wrapper-11 {
+  font-family: "Metropolis-Bold", Helvetica;
+  font-weight: 700;
+  color: #003356;
+}
+
+.wrapper .text-wrapper-12 {
+  font-family: "Metropolis-Bold", Helvetica;
+  font-weight: 700;
+  color: #001828;
+}
+
+.wrapper .using-AI-to {
+  position: relative;
+  width: 613px;
+  font-family: "Metropolis-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 39px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.wrapper .text-wrapper-13 {
+  font-family: "Metropolis-Bold", Helvetica;
+  font-weight: 700;
+  color: #f7931e;
+}
+
+.wrapper .cards {
+  display: flex;
+  height: 170px;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 0px 64px;
+  width: 100%;
+  position: relative;
+  align-self: stretch;
+}
+
+.wrapper .inital-check {
+  display: flex;
+  width: 359.33px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 14px;
+  padding: 34px 12px;
+  position: relative;
+  align-self: stretch;
+  background-color: var(--button-button-fills-white);
+  border-radius: 11px;
+  box-shadow: var(--card-shadow);
+}
+
+.wrapper .mask-2 {
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+
+.wrapper .div-8 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.wrapper .div-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.wrapper .text-wrapper-14 {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: "Metropolis-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--primaryorange);
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.wrapper .text-wrapper-15 {
+  position: relative;
+  width: 234.33px;
+  height: 1px;
+  font-family: "Avenir Next LT Pro-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--textdark);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.wrapper .div-9 {
+  display: flex;
+  width: 373.33px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 14px;
+  padding: 34px 12px;
+  position: relative;
+  align-self: stretch;
+  background-color: var(--button-button-fills-white);
+  border-radius: 11px;
+  box-shadow: var(--card-shadow);
+}
+
+.wrapper .div-10 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 26px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.wrapper .div-wrapper-2 {
+  display: flex;
+  width: 125px;
+  align-items: flex-start;
+  gap: 4px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.wrapper .text-wrapper-16 {
+  position: relative;
+  width: 220px;
+  margin-top: -1px;
+  margin-right: -95px;
+  font-family: "Metropolis-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--primaryorange);
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.wrapper .text-wrapper-17 {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: "Avenir Next LT Pro-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--textdark);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.wrapper .div-11 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 26px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.wrapper .text-wrapper-18 {
+  position: relative;
+  width: 270.33px;
+  height: 40px;
+  margin-top: -1px;
+  font-family: "Metropolis-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--primaryorange);
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.wrapper .services-section {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  height: 624px;
+  align-items: center;
+  justify-content: center;
+  gap: 158px;
+  padding: 21px 0px;
+  position: relative;
+}
+
+.wrapper .div-12 {
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.wrapper .container-wrapper {
+  position: relative;
+  width: 1440px;
+  height: 624px;
+  top: -21px;
+  /* background-image: url(./img/vector-1-2.svg); */
+  background-size: 100% 100%;
+}
+
+.wrapper .container-2 {
+  display: flex;
+  flex-direction: column;
+  width: 1227px;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  position: relative;
+  top: 64px;
+  left: 106px;
+}
+
+.wrapper .frame-3 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 0px 23px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.wrapper .text-wrapper-19 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Metropolis-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--primaryblue);
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.wrapper .container-3 {
+  display: flex;
+  height: 413px;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  padding: 32px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.wrapper .cards-2 {
+  flex: 1;
+  flex-grow: 1;
+  background-color: var(--color-collection-for-health-website-color-2);
+  border-radius: 13px;
+  box-shadow: 0px 4px 4px #0033560f;
+  position: relative;
+  align-self: stretch;
+}
+
+.wrapper .text-wrapper-20 {
+  position: absolute;
+  width: 321px;
+  top: 221px;
+  left: 24px;
+  font-family: "Metropolis-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--textdark);
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.wrapper .robo {
+  position: absolute;
+  width: 209px;
+  height: 149px;
+  top: 44px;
+  left: 80px;
+}
+
+.wrapper .text-wrapper-21 {
+  position: absolute;
+  width: 321px;
+  top: 249px;
+  left: 24px;
+  font-family: "Metropolis-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--textdark);
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.wrapper .increase-flow {
+  position: absolute;
+  width: 200px;
+  height: 149px;
+  top: 44px;
+  left: 84px;
+}
+
+.wrapper .time-reduce {
+  position: absolute;
+  width: 152px;
+  height: 149px;
+  top: 44px;
+  left: 108px;
+}
+
+.wrapper .services-section-2 {
+  height: 608px;
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  align-items: center;
+  justify-content: center;
+  padding: 61px 0px;
+  position: relative;
+}
+
+.wrapper .overlap-group-wrapper {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 610px;
+  margin-top: -62px;
+  margin-bottom: -62px;
+}
+
+.wrapper .overlap-group-3 {
+  position: relative;
+  width: 1440px;
+  height: 723px;
+}
+
+.wrapper .layer {
+  position: absolute;
+  width: 332px;
+  height: 447px;
+  top: 276px;
+  left: 1108px;
+}
+
+.wrapper .vector-3 {
+  position: absolute;
+  width: 1440px;
+  height: 607px;
+  top: 0;
+  left: 0;
+}
+
+.wrapper .container-4 {
+  display: flex;
+  flex-direction: column;
+  width: 1321px;
+  align-items: center;
+  gap: 61px;
+  position: absolute;
+  top: 113px;
+  left: 60px;
+}
+
+.wrapper .container-5 {
+  display: flex;
+  height: 292px;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  padding: 32px 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.wrapper .billing-card {
+  display: flex;
+  width: 359.33px;
+  height: 170px;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 34px 12px;
+  position: relative;
+  background-color: var(--button-button-fills-white);
+  border-radius: 11px;
+  box-shadow: var(--card-shadow);
+}
+
+.wrapper .iconly-light-outline-wrapper {
+  position: relative;
+  width: 38px;
+  height: 38px;
+  background-color: #ecfde1;
+  border-radius: 19px;
+  border: 1px solid;
+  border-color: #00a05e;
+}
+
+.wrapper .iconly-light-outline {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 2px;
+  left: 2px;
+}
+
+.wrapper .text-wrapper-22 {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: "Metropolis-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--textdark);
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 29.4px;
+}
+
+.wrapper .billing-card-2 {
+  display: flex;
+  width: 373.33px;
+  height: 170px;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 34px 12px;
+  position: relative;
+  background-color: var(--button-button-fills-white);
+  border-radius: 11px;
+  box-shadow: var(--card-shadow);
+}
+
+.wrapper .text-wrapper-23 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  margin-right: -161px;
+  font-family: "Metropolis-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--textdark);
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 29.4px;
+  white-space: nowrap;
+}
+
+.wrapper .div-13 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.wrapper .text-wrapper-24 {
+  position: relative;
+  width: 261px;
+  margin-top: -1px;
+  font-family: "Metropolis-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--textdark);
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 29.4px;
+}
+
+.wrapper .services-section-3 {
+  height: 696px;
+  gap: 158px;
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  align-items: center;
+  justify-content: center;
+  padding: 61px 0px;
+  position: relative;
+}
+
+.wrapper .overlap-group-wrapper-2 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 666px;
+  margin-top: -46px;
+  margin-bottom: -46px;
+}
+
+.wrapper .overlap-group-4 {
+  position: relative;
+  width: 1381px;
+  height: 484px;
+  top: 86px;
+}
+
+.wrapper .group-2 {
+  position: absolute;
+  width: 85px;
+  height: 458px;
+  top: 0;
+  left: 0;
+}
+
+.wrapper .container-6 {
+  display: flex;
+  flex-direction: column;
+  width: 1321px;
+  align-items: center;
+  gap: 49px;
+  position: absolute;
+  top: 11px;
+  left: 60px;
+}
+
+.wrapper .container-7 {
+  display: flex;
+  width: 1263px;
+  height: 391px;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  padding: 16px;
+  position: relative;
+}
+
+.wrapper .element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.wrapper .mac {
+  position: relative;
+  width: 353px;
+  height: 277px;
+}
+
+.wrapper .text {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 11px 23px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #dbeefb;
+  border-radius: 15px;
+}
+
+.wrapper .text-wrapper-25 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Metropolis-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--primaryblue);
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.wrapper .testimonials {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  height: 636px;
+  align-items: center;
+  justify-content: center;
+  gap: 158px;
+  padding: 61px 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+.wrapper .overlap-group-wrapper-3 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 666px;
+  margin-top: -76px;
+  margin-bottom: -61px;
+}
+
+.wrapper .overlap-group-5 {
+  position: relative;
+  width: 1440px;
+  height: 636px;
+  top: 15px;
+  /* background-image: url(./img/vector-1-4.png); */
+  background-size: 100% 100%;
+}
+
+.wrapper .container-8 {
+  display: flex;
+  flex-direction: column;
+  width: 1321px;
+  align-items: center;
+  gap: 49px;
+  position: absolute;
+  top: 104px;
+  left: 60px;
+}
+
+.wrapper .title-2 {
+  display: inline-flex;
+  justify-content: center;
+  gap: 16px;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.wrapper .text-wrapper-26 {
+  position: relative;
+  width: fit-content;
+  font-family: "Metropolis-Thin", Helvetica;
+  font-weight: 100;
+  color: var(--primaryblue);
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.wrapper .container-9 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  padding: 32px 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.wrapper .div-14 {
+  display: flex;
+  flex-direction: column;
+  width: 344px;
+  align-items: center;
+  justify-content: center;
+  gap: 31px;
+  padding: 32px 0px;
+  position: relative;
+}
+
+.wrapper .avatar {
+  /* background-image: url(./img/avatar.png); */
+  position: relative;
+  width: 85px;
+  height: 85px;
+  border-radius: 100px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.wrapper .div-15 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.wrapper .text-wrapper-27 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Avenir Next LT Pro-Demi", Helvetica;
+  font-weight: 400;
+  color: var(--textdark);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.wrapper .text-wrapper-28 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Avenir Next LT Pro-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.wrapper .avatar-2 {
+  /* background-image: url(./img/avatar-1.png); */
+  position: relative;
+  width: 85px;
+  height: 85px;
+  border-radius: 100px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.wrapper .avatar-3 {
+  /* background-image: url(./img/avatar-2.png); */
+  position: relative;
+  width: 85px;
+  height: 85px;
+  border-radius: 100px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.wrapper .vector-4 {
+  position: absolute;
+  width: 1440px;
+  height: 636px;
+  top: 0;
+  left: 0;
+}
+
+.wrapper .about {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 738px;
+}
+
+.wrapper .overlap-2 {
+  position: relative;
+  width: 1440px;
+  height: 2385px;
+  top: -843px;
+  /* background-image: url(./img/vector-1-5.svg); */
+  background-size: 100% 100%;
+}
+
+.wrapper .group-3 {
+  position: absolute;
+  width: 409px;
+  height: 622px;
+  top: 684px;
+  left: 1031px;
+}
+
+.wrapper .frame-4 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 39px;
+  padding: 32px 0px;
+  position: absolute;
+  top: 907px;
+  left: 129px;
+}
+
+.wrapper .about-us-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.wrapper .about-us {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Metropolis-Bold", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.wrapper .text-wrapper-29 {
+  font-weight: 700;
+  color: #003356;
+}
+
+.wrapper .text-wrapper-30 {
+  font-family: "Metropolis-Regular", Helvetica;
+  color: #001b2d94;
+  font-size: 43px;
+}
+
+.wrapper .div-16 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  padding: 100px 24px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 18px;
+  background: linear-gradient(180deg, rgb(4, 59, 98) 0%, rgb(0, 127.03, 214.2) 100%);
+}
+
+.wrapper .unveiling-our-vision {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Metropolis-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.wrapper .text-wrapper-31 {
+  color: #ffffff;
+  line-height: 65.5px;
+}
+
+.wrapper .text-wrapper-32 {
+  font-family: "Metropolis-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 32px;
+}
+
+.wrapper .at-healthonomy-we {
+  position: relative;
+  width: 1134px;
+  font-family: "Avenir Next LT Pro-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.wrapper .text-wrapper-33 {
+  color: #ffffff;
+}
+
+.wrapper .text-wrapper-34 {
+  font-family: "Metropolis-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #f7931e;
+}
+
+.wrapper .about-2 {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  height: 580px;
+  align-items: center;
+  justify-content: center;
+  gap: 158px;
+  padding: 64px 0px;
+  position: relative;
+  background: linear-gradient(180deg, rgb(194.07, 250.06, 226.96) 4.04%, rgba(255, 255, 255, 0) 100%);
+}
+
+.wrapper .vector-5 {
+  position: absolute;
+  width: 110px;
+  height: 91px;
+  top: 425px;
+  left: 1330px;
+}
+
+.wrapper .image-2 {
+  position: absolute;
+  width: 554px;
+  height: 669px;
+  top: -24px;
+  left: 30px;
+}
+
+.wrapper .overlap-group-6 {
+  position: relative;
+  height: 540px;
+}
+
+.wrapper .banner-vector {
+  position: absolute;
+  width: 554px;
+  height: 439px;
+  top: 101px;
+  left: 0;
+}
+
+.wrapper .portrait-hansome {
+  position: absolute;
+  width: 362px;
+  height: 540px;
+  top: 0;
+  left: 96px;
+}
+
+.wrapper .div-17 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 53px;
+  position: absolute;
+  top: 95px;
+  left: 650px;
+}
+
+.wrapper .about-us-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Metropolis-Bold", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 48px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.wrapper .text-wrapper-35 {
+  position: relative;
+  width: 637px;
+  height: 176px;
+  font-family: "Metropolis-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 33px;
+}
+
+.wrapper .container-10 {
+  position: relative;
+  width: 1440px;
+  height: 337.43px;
+  background-blend-mode: exclusion;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 51, 86, 0.04) 0%,
+    rgba(247, 147, 30, 0.04) 49.97%,
+    rgba(0, 51, 86, 0.04) 100%
+  );
+}
+
+.wrapper .overlap-3 {
+  position: absolute;
+  width: 1312px;
+  height: 254px;
+  top: 145px;
+  left: 128px;
+}
+
+.wrapper .group-4 {
+  position: absolute;
+  width: 138px;
+  height: 150px;
+  top: 104px;
+  left: 1174px;
+}
+
+.wrapper .frame-5 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1184px;
+  height: 128.43px;
+  align-items: center;
+  justify-content: center;
+  gap: 60px 60px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.wrapper .frame-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  flex-grow: 1;
+}
+
+.wrapper .div-18 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.wrapper .mask-3 {
+  position: relative;
+  width: 126.5px;
+  height: 108.43px;
+}
+
+.wrapper .text-wrapper-36 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Metropolis-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 43.7px;
+  white-space: nowrap;
+}
+
+.wrapper .frame-7 {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #f4f4f4;
+  border-radius: 16px;
+}
+
+.wrapper .text-wrapper-37 {
+  position: relative;
+  width: 198.17px;
+  margin-top: -1px;
+  margin-right: -20px;
+  font-family: "Avenir Next LT Pro-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.wrapper .meet-the-team-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 54px;
+  left: 606px;
+}
+
+.wrapper .meet-the-team {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Avenir Next LT Pro-Bold", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 65.5px;
+  white-space: nowrap;
+}
+
+.wrapper .text-wrapper-38 {
+  font-weight: 700;
+  color: #f7931e;
+}
+
+.wrapper .text-wrapper-39 {
+  font-family: "Avenir Next LT Pro-Regular", Helvetica;
+  color: #003356;
+}
+
+.wrapper .footer {
+  flex-direction: column;
+  gap: 80px;
+  padding: 80px 64px;
+  background-color: var(--button-button-fills-white);
+  display: inline-flex;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.wrapper .content {
+  display: flex;
+  width: 1312px;
+  align-items: center;
+  gap: 32px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.wrapper .healthonomy-logo-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.wrapper .healthonomy-logo-2 {
+  position: relative;
+  width: 215px;
+  height: 26.49px;
+}
+
+.wrapper .social-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.wrapper .img-2 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.wrapper .credits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.wrapper .divider {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 1px;
+  background-color: var(--textdark);
+}
+
+.wrapper .div-19 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.wrapper .text-wrapper-40 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--text-small-normal-font-family);
+  font-weight: var(--text-small-normal-font-weight);
+  color: var(--textdark);
+  font-size: var(--text-small-normal-font-size);
+  letter-spacing: var(--text-small-normal-letter-spacing);
+  line-height: var(--text-small-normal-line-height);
+  white-space: nowrap;
+  font-style: var(--text-small-normal-font-style);
+}
+
+.wrapper .text-wrapper-41 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--text-small-link-font-family);
+  font-weight: var(--text-small-link-font-weight);
+  color: var(--textdark);
+  font-size: var(--text-small-link-font-size);
+  letter-spacing: var(--text-small-link-letter-spacing);
+  line-height: var(--text-small-link-line-height);
+  text-decoration: underline;
+  white-space: nowrap;
+  font-style: var(--text-small-link-font-style);
+}
