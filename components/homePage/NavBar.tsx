@@ -84,9 +84,9 @@ const NavBar = () => {
         position="static"
         // elevation={3}
         sx={{
-          backgroundColor: "#FFF",
+          backgroundColor: "#f7f7f7",
           paddingTop: "20px",
-          boxShadow:"0px 2px 14px 0px rgba(0, 24, 41, 0.11)"
+          boxShadow: "0px 2px 14px 0px rgba(0, 24, 41, 0.11)",
         }}
       >
         {/* Container to hold the content and align it */}
@@ -115,7 +115,7 @@ const NavBar = () => {
                   textColor="inherit"
                   indicatorColor="secondary"
                   TabIndicatorProps={{
-                    style: { backgroundColor: "#c7833e" },
+                    style: { backgroundColor: "#005189" },
                   }}
                 >
                   {/* Map through pages to create Tabs for navigation */}
@@ -124,12 +124,11 @@ const NavBar = () => {
                       key={index}
                       label={page.label}
                       onClick={() => navigationToScreens(page.route)}
-                      style={{color: "#003356",}}
+                      style={{ color: "#004270 ", fontWeight: "700" }}
                     />
                   ))}
                 </Tabs>
-         
-         
+
                 {/* <Button
                   variant="text"
                   onClick={navigationToRegisterPage}

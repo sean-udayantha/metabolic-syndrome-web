@@ -11,8 +11,8 @@ import { lora } from "../../app/fonts";
 
 /* Typography style for heading 5 */
 const typographyh5Style = {
-  color: "#F7931E",
-  fontSize: { xs: "18px", sm: "22px", md: "18px" },
+  color: "#E97458",
+  fontSize: { xs: "18px", sm: "22px", md: "26px" },
   fontStyle: "normal",
   fontWeight: "700",
   lineHeight: "normal",
@@ -24,7 +24,7 @@ const typographyh5Style = {
 const typographyh1Style = {
   color: "#001829",
   // fontFamily: "Volkhov",
-  fontSize: { xs: "45px", sm: "70px", md: "80px" }, // Adjust font size for different screen sizes
+  fontSize: { xs: "45px", sm: "70px", md: "74px" }, // Adjust font size for different screen sizes
   lineHeight: "125%",
   fontStyle: "normal",
   letterSpacing: "-3.2px",
@@ -34,12 +34,12 @@ const typographyh1Style = {
 
 /* Typography style for body text */
 const typographyBody1Style = {
-  color: "#001829",
+  color: "#4c5d69",
   fontSize: { xs: "16px", sm: "22px", md: "24px" }, // Adjust font size for different screen sizes
   lineHeight: "35px",
   fontStyle: "normal",
   letterSpacing: "-0.96px",
-  fontWeight: "400",
+  fontWeight: "500",
 };
 
 /* Button style for contained variant */
