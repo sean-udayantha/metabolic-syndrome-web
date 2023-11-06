@@ -24,7 +24,7 @@ const Technologies = () => {
      }}
     >
       <Grid item xs={12}>
-        <Typography variant="overline">Technologies</Typography>
+        <Typography variant="h6">Technologies</Typography>
       </Grid>
       <Grid item xs={3}>
         <Box

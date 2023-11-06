@@ -14,7 +14,7 @@ const ResearchProblemSolution = () => {
         }}
       >
         <Grid item xs={12}>
-          <Typography variant="overline">Research Problem Solution</Typography>
+          <Typography variant="h6">Research Problem Solution</Typography>
         </Grid>
         <Grid item xs={6}>
         <img

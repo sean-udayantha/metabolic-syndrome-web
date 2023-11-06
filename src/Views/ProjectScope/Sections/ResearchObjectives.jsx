@@ -11,7 +11,7 @@ const ResearchObjectives = () => {
         }}
       >
         <Grid item xs={12}>
-          <Typography variant="overline">Research Objectives</Typography>
+          <Typography variant="h6">Research Objectives</Typography>
         </Grid>
         <Grid item xs={12}>
           <Card sx={{ width: "100%" }}>

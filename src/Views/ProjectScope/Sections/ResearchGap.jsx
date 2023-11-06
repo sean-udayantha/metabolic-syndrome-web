@@ -10,7 +10,7 @@ const ResearchGap = () => {
      }}
     >
       <Grid item xs={12}>
-        <Typography variant="overline">Research Problem</Typography>
+        <Typography variant="h6">Research Problem</Typography>
       </Grid>
       <Grid item xs={4}>
       </Grid>

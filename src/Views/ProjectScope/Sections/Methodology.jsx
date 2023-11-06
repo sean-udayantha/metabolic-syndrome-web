@@ -12,7 +12,7 @@ const Methodology = () => {
         }}
       >
         <Grid item xs={12}>
-          <Typography variant="overline">Methodology</Typography>
+          <Typography  variant="h6" >Methodology</Typography>
         </Grid>
         <Grid item xs={6}>
           <img
